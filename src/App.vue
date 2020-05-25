@@ -7,7 +7,7 @@
         <input
           type="text"
           class="search-bar"
-          placeholder="search..."
+          placeholder="bir yer yaz..."
           v-model="query"
           @keypress="fetchWeather"
         />
